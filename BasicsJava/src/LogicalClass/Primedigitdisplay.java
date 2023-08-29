@@ -1,5 +1,5 @@
-//package LogicalClass;
-//
+package LogicalClass;
+
 //import java.util.Scanner;
 //public static boolean isPrime(int n)
 //{
@@ -30,29 +30,29 @@
 //	}
 //}
 //}
-////public class Primedigitdisplay {
-////		public void prime()
-////		{
-////			Scanner sc = new Scanner(System.in);
-////			int num=sc.nextInt();
-////			int count=0;
-////			while(num>0)
-////			{
-////				int digit=num%10;
-////				for(int i=1;i<num;i++)
-////				{
-////					if(digit%i==0)
-////					{
-////					count++;
-////				}
-////					num=num/10;
-////				}
-////				System.out.println(digit);
-////			}
-////		}
-////		public static void main(String args[])
-////		{
-////			Primedigitdisplay p = new Primedigitdisplay();
-////			p.prime();
-////		}
-//
+//public class Primedigitdisplay {
+//		public void prime()
+//		{
+//			Scanner sc = new Scanner(System.in);
+//			int num=sc.nextInt();
+//			int count=0;
+//			while(num>0)
+//			{
+//				int digit=num%10;
+//				for(int i=1;i<num;i++)
+//				{
+//					if(digit%i==0)
+//					{
+//					count++;
+//				}
+//					num=num/10;
+//				}
+//				System.out.println(digit);
+//			}
+//		}
+//		public static void main(String args[])
+//		{
+//			Primedigitdisplay p = new Primedigitdisplay();
+//			p.prime();
+//		}
+

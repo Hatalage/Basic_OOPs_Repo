@@ -15,11 +15,13 @@ public class EvenNumsWhile {
 			if(i%2==0)
 			{
 				sum=sum+i;
-				System.out.println(sum);
+				
 				
 			}
+			
 			i++;
 		}
+		System.out.println("The sum is: "+sum);
 	}
 
 }

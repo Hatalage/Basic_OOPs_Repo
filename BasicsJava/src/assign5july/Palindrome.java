@@ -7,12 +7,12 @@ public class Palindrome {
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a Number: ");
-		int num = sc.nextInt();
+		int n = sc.nextInt();
 		int temp,sum;
-		temp = num;
-		for(sum=0; num>0; num=num/10)
+		temp = n;
+		for(sum=0; n>0; n=n/10)
 		{
-			int digit = num%10;
+			int digit = n%10;
 			sum = (sum*10)+digit;
 		}
 		if(sum==temp)

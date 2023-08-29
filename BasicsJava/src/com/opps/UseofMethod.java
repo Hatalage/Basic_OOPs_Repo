@@ -38,7 +38,8 @@ public class UseofMethod {
 		{
 			UseofMethod m = new UseofMethod();
 			Scanner sc = new Scanner(System.in);
-			m.num = sc.nextInt();
+			System.out.println("Enter number");
+			 int num = sc.nextInt();
 			m.display();
 			m.Isnegative();
 			

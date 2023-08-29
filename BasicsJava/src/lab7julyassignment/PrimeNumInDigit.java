@@ -5,11 +5,11 @@ public class PrimeNumInDigit {
 	{
 		int num = 456789;
 		int count = 0;
-		int i=1;
+		int i=2;
 		while(num>0)
 		{
 			int digit = num%10;
-			for(i=1; i<num; i++)
+			for(i=2; i<num; i++)
 			{
 	    	if(digit%i==0)
 			{

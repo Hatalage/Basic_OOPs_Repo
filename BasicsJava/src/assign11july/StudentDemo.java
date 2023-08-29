@@ -27,9 +27,9 @@ public class StudentDemo {
 			stud1.Rno=sc.nextInt();
 			System.out.println("Enter a Percentage");
 			stud1.per=sc.nextDouble();
-			System.out.println("Enter Student1 name: "+stud1.name);
-			System.out.println("Enter Student1 roll no: "+stud1.Rno);
-			System.out.println("Enter Student1 percentage: "+stud1.per);
+			System.out.println("The Student1 name: "+stud1.name);
+			System.out.println("The Student1 roll no: "+stud1.Rno);
+			System.out.println("The Student1 percentage: "+stud1.per);
 //			stud1.display();
 		}
 }

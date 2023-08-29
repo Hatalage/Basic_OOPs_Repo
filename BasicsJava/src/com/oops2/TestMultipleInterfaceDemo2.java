@@ -26,7 +26,7 @@ class HybridCar implements Cng_car, Petrol_car
 public interface TestMultipleInterfaceDemo2 {
 		public static void main(String[] args) {
 			HybridCar h = new HybridCar();
-			h.drive();
+     		h.drive();
 			h.petrol_car_kit();
 			h.cng_car_kit();
 		}

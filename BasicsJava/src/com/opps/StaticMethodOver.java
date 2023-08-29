@@ -10,9 +10,9 @@ public class StaticMethodOver {
 		}
 		public static void main(String args[])
 		{
-			StaticMethodOver st = new StaticMethodOver();
-			st.fun();
-			st.fun(10);
+			//StaticMethodOver st = new StaticMethodOver();
+			fun();
+			fun(10);
 		}
 		}
 

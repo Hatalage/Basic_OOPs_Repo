@@ -1,4 +1,4 @@
-package LabAssignment;
+package com.interExample;
 
 import java.util.Scanner;
 
@@ -9,6 +9,7 @@ public class PrimeNumsRange {
 		System.out.println("Enter range to print prime nums: ");
 		int num = sc.nextInt();
 		int count=0;
+//		int sum=0;
 		for(int i=2; i<num; i++) {
 			count=0;
 			for(int j=1; j<=i; j++) {
@@ -21,7 +22,11 @@ public class PrimeNumsRange {
 			{
 				System.out.println(i);
 			}
+//			sum=sum+i;
+//			System.out.println("Sum is: "+sum);
 		}
+		
+		
 	}
 
 }

@@ -44,7 +44,7 @@ class Menu {
 	{
 		this.mname=mname;
 	}
-	public void setItem(Item1 it)
+	public void setItem1(Item1 it)
 	{
 		this.it=it;
 	}
@@ -113,7 +113,7 @@ public class HotelGetterSetter {
 			System.out.println(mn.getMid());
 			System.out.println(mn.getMname());
 			
-			mn.setItem(new Item1());
+			mn.setItem1(new Item1());
 			Item1 it = mn.getIt();
 			it.setIid(103);
 			it.setIname("DalMakhani");

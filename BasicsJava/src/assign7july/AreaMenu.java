@@ -18,26 +18,26 @@ public class AreaMenu {
 			        float rad = sc.nextFloat();
 			        float pi= 3.142f;
 			        float Carea = pi*rad*rad;
-			        System.out.println("Area of circle is: "+Carea);
+			        System.out.println("Area of Circle is: "+Carea);
 			        break;
 			case 2: System.out.println("Enter length: ");
 					float length = sc.nextFloat();
 					System.out.println("Enter breadth: ");
 					float breadth = sc.nextFloat();
 					float Rarea = length*breadth;
-					System.out.println("Area of circle is: "+Rarea);
+					System.out.println("Area of Rectangle is: "+Rarea);
 					break;
 			case 3: System.out.println("Enter base: ");
 					float base = sc.nextFloat();
 					System.out.println("Enter height: ");
 					float height = sc.nextFloat();
 					float Tarea = 1/2*(base*height);
-					System.out.println("Area of circle is: "+Tarea);
+					System.out.println("Area of Triangle is: "+Tarea);
 					break;
 			case 4: System.out.println("Enter side: ");
 					float side = sc.nextFloat();
 					float Sarea = side*side;
-					System.out.println("Area of circle is: "+Sarea);
+					System.out.println("Area of Square is: "+Sarea);
 					break;
 			}
 		}

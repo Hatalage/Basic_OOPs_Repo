@@ -30,6 +30,8 @@ public class DynamicDispatch {
 	f.color();
 	ft=a;
 	ft.color();
+	ft=b;
+	b.color();
 	
 }
 }

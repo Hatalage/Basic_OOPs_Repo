@@ -15,7 +15,7 @@ class Rose extends Flower
 }
 public class TestStaticMethod {
 	public static void main(String[] args) {
-		Flower f = new Rose();
+		Rose f = new Rose();
 		f.fragrance();
 	}
 }

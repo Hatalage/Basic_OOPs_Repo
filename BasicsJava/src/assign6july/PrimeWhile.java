@@ -16,9 +16,8 @@ public class PrimeWhile {
 			if(num%i==0)
 			{
 				count++;
-				i++;
 			}
-		
+			i++;
 		if(count==0)
 		{
 			System.out.println("num is Prime");

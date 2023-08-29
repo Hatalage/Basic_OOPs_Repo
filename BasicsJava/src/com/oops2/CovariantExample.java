@@ -17,7 +17,8 @@ public class CovariantExample {
 	public static void main(String args[])
 	{
 		calc c = new calc();
-		c.add();
+		Object s=c.add();
+		System.out.println(s);
 		simplecalc sc = new simplecalc();
 		String m = sc.add();
 		System.out.println(m);

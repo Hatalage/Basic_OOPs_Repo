@@ -12,10 +12,6 @@ public class Account {
 			cname=name;
 			bal=balance;
 		}
-//		public void display()
-//		{
-//			System.out.println(acid+" "+cname+" "+bal);
-//		}
 		public void withdraw()
 		{
 			Scanner sc = new Scanner(System.in);
@@ -38,7 +34,6 @@ public class Account {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter id, name, balance");
 			ac.acceptDetails(sc.nextInt(),sc.next(),sc.nextInt());
-//			ac.display();
 			System.out.println("Choose option");
 			System.out.println("1.Withdraw \n2. Deposit");
 			int option = sc.nextInt();

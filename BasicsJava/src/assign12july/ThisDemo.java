@@ -1,29 +1,29 @@
 package assign12july;
 
 public class ThisDemo {
-		int x;
-		public void input(int x)
-		{
-			this.x=x;
-		}
-		public void foo()
-		{
-			this.show();
-			System.out.println("hii java");
-		}
-		public void show()
-		{
-			System.out.println(x);
-		}
-		public void show2()
-		{
-			System.out.println("Student");
-		}
-		public static void main(String args[])
-		{
-			ThisDemo t = new ThisDemo();
-			t.input(300);
-			t.show2();
-			t.foo();
-		}
-}
+	    private int num;
+
+	    public ThisDemo(int num) {
+	        this.num = num; // using "this" to refer to the instance variable
+	    }
+
+	    public void printNum() {
+	        System.out.println("The value of num is: " + this.num); // using "this" to refer to the instance variable
+	    }
+
+	    public void setNum(int num) {
+	        this.num = num; // using "this" to refer to the instance variable
+	    }
+
+	    public int getNum() {
+	        return this.num; // using "this" to refer to the instance variable
+	    }
+
+	    public static void main(String[] args) {
+	    	ThisDemo obj = new ThisDemo(42);
+	        obj.printNum(); // calling a method that uses "this" to refer to the instance variable
+	        obj.setNum(99); // calling a method that uses "this" to refer to the instance variable
+	        System.out.println("The new value of num is: " + obj.getNum()); // calling a method that uses "this" to refer to the instance variable
+	    }
+	}
+

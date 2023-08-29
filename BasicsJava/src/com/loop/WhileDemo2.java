@@ -15,7 +15,7 @@ public class WhileDemo2 {
 			sum = sum+digit;
 			num = num/10;
 		}
-		System.out.println(sum);
+		System.out.println("The sum of digits is: "+sum);
 	}
 
 }

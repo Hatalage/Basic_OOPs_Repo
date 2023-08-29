@@ -10,7 +10,7 @@ class MangoTree extends Tree
 		System.out.println(rootclr);
 	}
 }
-public class SimpleInheriDemo2 {
+public class SingleInheriDemo2 {
 	public static void main(String args[])
 	{
 		MangoTree mt = new MangoTree();
